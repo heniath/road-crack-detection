@@ -1,0 +1,33 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+venv/
+.env
+
+# Project specific data
+*.pth
+*.h5
+
+# LaTeX junk
+docs/*.aux
+docs/*.log
+docs/*.out
+docs/*.toc
+docs/*.pdf
+docs/*.fls
+docs/*.fdb_latexmk
+
+# IDE - PyCharm/VSCode
+.idea/
+.vscode/
+
+# Ignore the unzipped dataset
+data/*
+!data/.gitkeep
+
+# Ignore logs
+docs/logs/*
+!docs/logs/.gitkeep
